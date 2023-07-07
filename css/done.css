@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+}
+:root{
+    --font-heading: 'Poppins', sans-serif;
+    --font-main: 'Belanosima', sans-serif;
+    --main-bg: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+    --bg-glass: rgba(255, 255, 255, 0.2);
+    --text-color: #fff;
+}
+body{
+}
+.msg_container{
+    min-width: 80%;
+    min-height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+    background: var(--main-bg);
+}
+.msg_box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    border-radius: 8px;
+}
+.msg_box .msg{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+.msg_box .icon{
+    font-size: 1.5rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background: var(--bg-glass);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg_box .icon i{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+}
